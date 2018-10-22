@@ -1,0 +1,1122 @@
+body{
+    position: relative;
+    .logo{
+        position: absolute;
+        width: 124px;
+        height: 89px;
+        background-color: #549dc5;
+        margin-left: 60px;
+        top: 0px;
+        z-index: 99;
+        display: flex;
+        img{
+            margin: auto auto;
+        }
+    }
+    margin:0;
+    .nav-menu{
+            width: 100%;
+            height: 70px;
+            background-color: #2f2f2f;
+            position: relative;
+            .container-nav-menu{
+                .container-menu-opciones{
+                    width: 60%;
+                    height: 70px;
+                    position: relative;
+                    float: right;
+                    background-color: #2f2f2f;
+                    //border:solid 2px red;
+                    margin-right: 50px;
+                    display: flex;
+                    div{
+                        width: 14.285%;
+                        height: 70px;
+                        border-right:solid 1px gray;
+                        display: flex;
+                        &:hover{
+                            cursor: pointer;
+                            color:#549dc5;
+                        }
+                        &:nth-of-type(1){
+                            border-left:solid 1px gray;
+                        }
+                        li{
+                            font-weight: bold;
+                            font-size: .7rem;
+                            margin: auto auto;
+                            color:white;
+                            list-style: none;
+                            &:hover{
+                                color:#549dc5;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    .animacion{
+        width: 100%;
+        height: 600px;
+        background-color: blue;
+    }
+    .how-it-works{
+        width: 100%;
+        height: 550px;
+        background-color: #fbfbfb;
+        display: flex;
+        justify-content: center;
+        .contenedor-how-it-works{
+            width: 80%;
+            height: 360px;
+            //border: solid 1px red;
+            margin: auto auto;
+            text-align: center;
+            .titulo-how-it-works{
+
+                label{
+                    font-size: 2.2rem;
+                }
+            }
+            .servicios-how-it-works{
+                //border: solid 1px blue;
+                margin-top:20px;
+                width: 100%;
+                height: 265px;
+                display: flex;
+                justify-content: space-between;
+                .contenido-how-it-works{
+                    width: 22%;
+                    height: 265px;
+                    //border: solid 1px orange;
+                    .icono-how-it-works{
+                        width: 100%;
+                        height:100px;
+                        //border:solid 1px blue; 
+                        i{
+                            font-size: 4rem;
+                            //border-bottom: solid 1px gray;
+                            padding-bottom: 15px;
+                        }
+                    }
+                    .textoContenido-how-it-works{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+    .share-love{
+        width: 100%;
+        height: 350px;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/parallax1.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container-share-love{
+            width: 33%;
+            height: 120px;
+            //border:solid 1px red;
+            text-align: center;
+            .texto-share-love{
+                font-size: 1.6rem;
+                color:white;
+                label{
+                    border-bottom: solid 1px skyblue;
+                    span{
+                    color:skyblue;
+                    }
+                } 
+            }
+            .buttons-share-love{
+                width: 50%;
+                margin: auto auto;
+                margin-top:10px;
+                display: flex;
+                color:white;
+                .button-share-love label{
+                    margin-top:7px;
+                }
+                .button-share-love.blue{
+                    width: 68px;
+                    height: 40px;
+                    margin: auto auto;
+                    background-color: blue;
+                    &:hover{
+                        background-color: rgb(18, 24, 104);
+                    }
+                }
+                .button-share-love.skyblue{
+                    background-color: skyblue;
+                    width: 68px;
+                    height: 40px;
+                    margin: auto auto;
+                    &:hover{
+                        background-color: rgb(29, 109, 129);
+                    }
+                }
+                .button-share-love.red{
+                    background-color: red;
+                    width: 68px;
+                    height: 40px;
+                    margin: auto auto;
+                    &:hover{
+                        background-color: rgb(121, 26, 26);
+                    }
+                }
+            }
+        }
+    }
+    .awesome-proyects{
+        background-color:#fbfbfb; 
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container-awesome-proyects{
+            width: 90%;
+            height: 1450px;
+            text-align: center;
+            //border:solid 1px red;
+            margin: auto auto;
+            .titulo-our-awesome-projects{
+                label{
+                    font-size: 2.2rem;
+                }
+            }
+            .options-our-awesome-projects{
+                width: 55%;
+                height: 60px;
+                //border:solid 1px blue;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                div label{
+                    font-size: .9rem;
+                    margin-top:18px;
+                }
+                .option:hover{
+                    cursor: pointer;
+                    color: blue;
+                }
+                .all-our-awesome-projects{
+                    label:hover{
+                        cursor: pointer;
+                        color: blue;
+                    }
+                }
+
+            }
+            .list-awesome-projects{
+                width: 100%;
+                height: 1300px;
+                //border: solid 1px gray;
+                // display: block;
+                // float: left;
+                .awesome-project{
+                    width: 32.63%;
+                    margin-right: 1%;
+                    margin-bottom:1%;
+                    height: 250px;
+                    display: block;
+                    float: left;
+                    //border:solid 1px red;
+                    &:nth-of-type(3){
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(6){
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(9){
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(12){
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(15){
+                        margin-right: 0;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        background-color: skyblue;
+                    }
+                }
+                .awesome-project.mockup{
+                    background-image: url('../img/Proyectos/mockup.jpg');
+                }
+                .awesome-project.wallstreet{
+                    background-image: url('../img/Proyectos/wallstreet.jpg');
+                }
+                .awesome-project.piece{
+                    background-image: url('../img/Proyectos/piece.jpg');
+                }
+                .awesome-project.dickcover{
+                    background-image: url('../img/Proyectos/diskcover.jpg');
+                }
+                .awesome-project.seafood{
+                    background-image: url('../img/Proyectos/seafood.jpg');
+                }
+                .awesome-project.amanda{
+                    background-image: url('../img/Proyectos/amanda.jpg');
+                }
+                .awesome-project.trefold{
+                    background-image: url('../img/Proyectos/treefold.jpg');
+                }
+                .awesome-project.sealfabric{
+                    background-image: url('../img/Proyectos/seal.jpg');
+                }
+                .awesome-project.poster{
+                    background-image: url('../img/Proyectos/poster.jpg');
+                }
+                .awesome-project.appscreens{
+                    background-image: url('../img/Proyectos/appscreens.jpg');
+                }
+                .awesome-project.footer{
+                    background-image: url('../img/Proyectos/footer.jpg');
+                }
+                .awesome-project.brand{
+                    background-image: url('../img/Proyectos/brand.jpg');
+                }
+                .awesome-project.half{
+                    background-image: url('../img/Proyectos/half.jpg');
+                }
+                .awesome-project.vol16{
+                    background-image: url('../img/Proyectos/vol16.jpg');
+                }
+                .awesome-project.jhondoe{
+                    background-image: url('../img/Proyectos/jhondoe.jpg');
+                }
+                
+            }
+        }
+    }
+    .work-together{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/parallax2.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container-work-together{
+            width: 40%;
+            height:120px;
+            //border:solid 1px red;
+            text-align: center;
+            .texto-work-together{
+                font-size: 1.6rem;
+                color:white;
+                span{
+                    color:skyblue;
+                }
+            }
+            .button-work-together .button-together{
+                margin-top:10px;
+                height: 40px;
+                color:white;
+                background: transparent;
+                border:solid 1px white;
+                &:hover{
+                    background-color: white;
+                    color:gray;
+                    cursor: pointer; 
+                }
+            }
+
+        }
+    }
+    .about-the-company{
+        width: 100%;
+        height: 1050px;
+        background-color: #fbfbfb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container-about-the-company{
+            width: 90%;
+            height: 1000px;
+            //border-bottom: solid 1px gray;
+            text-align: center;
+            .titulo-about-the-company label{
+                 margin-top: 10px;
+                 font-size: 2rem;
+            }
+            .our-working-place{
+                margin-top:20px;
+                width: 100%;
+                height: 300px;
+                display: flex;
+                //border: solid 1px blue;
+                .working-place-left{
+                    width: 70%;
+                    height: 300px;
+                    text-align: left;
+                    .titulo-working-place{
+                        font-size: 1.2rem;
+                    }
+                    .subtitulo-workin-place{
+                        margin-top:10px;
+                    }
+                    .parrafo-working-place{
+                        font-size: .9rem;
+                    }
+                    .parrafo-dos-working-place{
+                        font-size: .9rem;
+                    }
+                }
+                .working-place-right{
+                    width: 30%;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                        height: 250px;
+                    }
+                }
+            }
+            .skills-working-place{
+                width: 100%;
+                height: 500px;
+                //border:solid 1px red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .skill-working-place{
+                    width: 33.33%;
+                    height: 500px;
+                    //border: solid 1px blue;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .skill-contenido{
+                        width:95%;
+                        height: 450px;
+                        text-align: left;
+                        //border:solid 1px orange;
+                        .titulo-our-skills{
+                            
+                        }
+                        .texto-our-skills{
+                            margin-top:15px;
+                            font-size: .9rem;
+                        }
+                        .skill-photoshop{
+                            margin-top:20px;
+                            .texto-photoshop{
+                                span{
+                                    color:#549dc5;
+                                }
+                            }
+                            .container-barra-photoshop{
+                                .barra-photoshop{
+                                    width: 100%;
+                                    height: 15px;
+                                    border:solid 1px #549dc5;
+                                    .barra-photoshop-vacio{
+                                        width: 90%;
+                                        height: 14px;
+                                        background-color: #549dc5;
+                                    }
+                                }
+                            }
+                        }
+                        .skill-final-cut{
+                            .texto-final-cut{
+                                margin-top:20px;
+                                span{
+                                    color:#549dc5;
+                                }
+                            }
+                            .container-barra-final-cut{
+                                .barra-final-cut{
+                                        width: 100%;
+                                        height: 15px;
+                                        border: solid 1px #549dc5;
+                                    .barra-final-cut-vacio{
+                                        width: 80%;
+                                        height: 14px;
+                                        background-color:#549dc5;
+                                    }
+                                }
+                            }
+                        }
+                        .studio-photography{
+                            .texto-studio-photography{
+                                margin-top:20px;
+                                span{
+                                    color:#549dc5;
+                                }
+                            }
+                            .container-barra-studio-photography{
+                                .barra-studio-photography{
+                                    width: 100%;
+                                    height: 15px;
+                                    border: solid 1px #549dc5;
+                                    .barra-studio-photograpy-vacio{
+                                        width: 85%;
+                                        height: 14px;
+                                        background-color:#549dc5;
+                                    }
+                                }
+                            }
+                        }
+                        .motion-video{
+                            .texto-motion-video{
+                                margin-top:20px;
+                                span{
+                                    color:#549dc5;
+                                }
+                            }
+                            .container-barra-motion-video{
+                                .barra-motion-video{
+                                    width: 100%;
+                                    height: 15px;
+                                    border: solid 1px #549dc5;
+                                    .barra-motion-video-vacio{
+                                        width: 75%;
+                                        height: 14px;
+                                        background-color:#549dc5;
+                                    }
+                                }
+                            }
+                        }
+                        .responsive100{
+                            margin-top:15px;
+                            width:100%;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            border: solid 1px gray;
+                        }
+                        .texto-choose{
+                            width:100%;
+                            height: 200px;
+                            border: solid 1px gray;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .container-texto{
+                                margin-top:10px;
+                                width: 90%;
+                                height: 180px;
+                                font-size: .9rem;
+                            }
+                        }
+                        .clean-professional{
+                            margin-top:10px;
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            border:solid 1px gray;
+                            p{
+                                margin-top:10px;
+                                margin-left: 15px;
+                                width: 100%;
+                                &:hover{
+                                    cursor: pointer;
+                                    color:blue;
+                                }
+                            }
+                        }
+                        .collapsible{
+                            margin-top:10px;
+                            width: 100%;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            border:solid 1px gray;
+                            P{
+                                width: 100%;
+                                margin-top:10px;
+                                margin-left: 15px;
+                                &:hover{
+                                    cursor: pointer;
+                                    color:blue;
+                                }
+                            }
+                        }
+                        .features-services{
+                            width: 100%;
+                            height: 135px;
+                            //border:solid 1px blue;
+                            display: flex;
+                            .icon-features{
+                                width: 20%;
+                                height: 135px;
+                                //border: solid 1px green;
+                                display: flex;
+                                i{
+                                    margin:0 auto;
+                                    font-size: 3rem;
+                                }
+                            }
+                            .texto-features{
+                                width:80%;
+                                height: 135px;
+                                //border:solid 1px purple;
+                                .titulo-features{
+                                    width:100%;
+                                    height: 67.5px;
+                                    //border:solid 1px red;
+                                    font-size: .8rem;
+                                }
+                                .texto-largo-features{
+                                    width:100%;
+                                    height: 67.5px;
+                                    //border:solid 1px red;
+                                    font-size: .9rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .meet-our-team{
+        width: 100%;
+        height: 650px;
+        background-color: #fbfbfb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container-meet-our-team{
+            width: 90%;
+            height: 500px;
+            //border:solid 1px blue;
+            .titulo-meet-our-team{
+                h2{
+                    font-size: 1.2rem;
+                }
+            }
+            .contenidos-meet-our-team{
+                width: 100%;
+                height: 470px;
+                //border:solid 1px red;
+                display: flex;
+                .contenido-meet-our-team{
+                    width:33.33%;
+                    height: 470px;
+                    //border:solid 1px orange;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .content-meet-our-team{
+                        width: 92%;
+                        height: 450px;
+                        //border:solid 1px orange;
+                        .imagen-meet-our-team{
+                            img{
+                                width:100%;
+                            }
+                        }
+                        .nombre-our-team{
+                            text-align: center;
+                            h3{
+                                margin-top:20px;
+                                font-size: 1rem;
+                            }
+                            span{
+                                color:#549dc5;
+                                font-size: .8rem;
+                            }
+                        }
+                        .texto-meet-our-team{
+                            margin-top:10px;
+                            text-align: center;
+                        }
+                        .iconos-meet-our-team{
+                            width: 40%;
+                            height: 30px;
+                            margin: auto;
+                            //border:solid 1px blue;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            .icon-twitter{
+                                width: 30px;
+                                height: 30px;
+                                border:solid 2px #549dc5;
+                                display: flex;
+                                i{
+                                    margin: auto auto;
+                                    color:#549dc5;
+                                    &:hover{
+                                        color:white;
+                                    }
+                                }
+                                &:hover{
+                                    background-color: #549dc5;
+                                    cursor: pointer;
+                                    i{
+                                        color:white;
+                                    }
+                                }
+                            }
+                            .icon-facebook{
+                                width: 30px;
+                                height: 30px;
+                                border:solid 2px #677fb5;
+                                display: flex;
+                                i{
+                                    margin: auto auto;
+                                    color:#677fb5;
+                                    &:hover{
+                                        color:white;
+                                    }
+                                }
+                                &:hover{
+                                    background-color: #677fb5;
+                                    cursor: pointer;
+                                    i{
+                                        color:white;
+                                    }
+                                }
+                            }
+                            .icon-pinter{
+                                width: 30px;
+                                height: 30px;
+                                border:solid 2px#d8545d;
+                                display: flex;
+                                i{
+                                    margin: auto auto;
+                                    color:#d8545d;
+                                    &:hover{
+                                        color:white;
+                                    }
+                                }
+                                &:hover{
+                                    background-color:#d8545d;
+                                    cursor: pointer;
+                                    i{
+                                        color:white;
+                                    }
+                                }
+                            }
+                            .icon-in{
+                                width: 30px;
+                                height: 30px;
+                                border:solid 2px #3daccf;
+                                display: flex;
+                                i{
+                                    margin: auto auto;
+                                    color:#3daccf;
+                                    &:hover{
+                                        color:white;
+                                    }
+                                }
+                                &:hover{
+                                    background-color:#3daccf;
+                                    cursor: pointer;
+                                    i{
+                                        color:white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .information-images{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        color:white;
+        justify-content: center;
+        background-color: rgba(0,0,0,1);
+        background-image: url('../img/parallax4.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .images-container{
+            width: 75%;
+            height: 150px;
+            //border:solid 1px red;
+            margin:auto auto;
+            display: flex;
+            .div-logo{
+                width: 25%;
+                height: 150px;
+                //border: solid 1px blue;
+                text-align: center;
+                .imagen{
+                    i{
+                        font-size: 2.5rem;
+                        color:#549dc5
+                    }
+                }
+                .total{
+                    label{
+                        font-size: 2.5rem; 
+                    }
+                }
+                .mensaje{
+                    label{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .our-prices{
+        width: 100%;
+        height: 750px;
+        background-color:#fbfbfb;
+        display: flex;
+        .our-prices-container{
+            width: 80%;
+            height: 550px;
+            background-color: #fbfbfb;
+            position: relative;
+            //border: solid 2px peru;
+            margin: auto auto;
+            justify-content: center;
+            .tituto-our-prices{
+                width: 100%;
+                text-align: center;
+                font-size: 2.5rem;
+            }
+            .texto-our-prices{
+                width: 100%;
+                text-align: center;
+            }
+            .boxes-our-prices{
+                width: 100%;
+                margin-top:30px;
+                height: 420px;
+                //border: solid 2px black;
+                display: flex;
+                justify-content: space-between;
+                .box-our-prices{
+                    width: 22%;
+                    height: 420px;
+                    border: solid 1px gray;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    .contenido-our-prices{
+                        display: block;
+                        width: 80%;
+                        text-align: center;
+                        height: 380px;
+                        //border: solid 1px red;
+                        margin: auto auto;
+                        .our-prices-texto{
+                            margin-top: 5px;
+                        }
+                        .cantidad-our-prices{
+                            font-size: 2.5rem;
+                            font-family: inherit;
+                            color:#549dc5;
+                            font-weight: 900;
+                            label{
+                                span{
+                                    position: relative;
+                                    font-size: 1.2rem;
+                                    font-weight:none;
+                                    padding-bottom: 50px;
+                                }
+                            }
+                        }
+                        .opciones-our-prices{
+                            padding-top:7px;
+                            padding-bottom: 7px;
+                            font-size: 0.9rem;
+                            border-bottom: solid 1px gray;
+                            &:nth-of-type(3){
+                                border-top: solid 1px gray;
+                            }
+                        }
+                        .boton-our-prices button{
+                            margin-top:16px;
+                            background-color: #549dc5;
+                            width: 120px;
+                            height: 45px;
+                            color:white;
+                            &:hover{
+                                cursor: pointer;
+                                background-color: blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nicolas-broten{
+        width: 100%;
+        height: 350px;
+        background-image: url('../img/parallax3.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .carousel{
+            .carousel-inner{
+                div{
+                    margin-top:120px;
+                    color:white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .get-in-touch{
+        width: 100%;
+        height: 650px;
+        background-color: #fbfbfb;
+        text-align: center;
+        .contenedor-get-in-touch{
+            width: 70%;
+            padding-top: 50px;
+            height: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            .texto{
+                margin-top: 30px;
+                font-size: .9rem;
+            }
+            .informacion-get-in-touch{
+                display: flex;
+                width: 70%;
+                font-size: .8rem;
+                margin: auto auto;
+                justify-content: space-around;
+                div{
+                    i{
+                        color:#549dc5;
+                    }
+                }
+            }
+            .mensaje-get-in-touch{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                div{
+                    width: 100%;
+                    input{
+                        padding-top:40px;
+                        background-color:#fbfbfb;
+                        border:none;
+                        border-bottom: solid 1px gray;
+                        width: 90%;
+                    }
+                }
+            }
+            .text-area-get-in-touch{
+                textarea{
+                    margin-top:22px;
+                    width: 100%;
+                    border:none;
+                    background-color: #fbfbfb;
+                    border-bottom: solid 1px gray;
+                }
+            }
+            .button-get-in-touch{
+                button{
+                    margin-top:15px;
+                    background-color: #549dc5;
+                    width: 140px;
+                    height: 45px;
+                    color:white;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: blue;
+                    }
+                }
+            }
+        }
+    }
+    div.mapa{
+        height: 320px;
+        background-color: green;
+    }
+    footer.all-rights{
+        width: 100%; 
+        height: 110px;
+        background-color: #2f2f2f;   
+        color:white;
+        display: flex;
+        justify-content: center;
+        .contenedor-footer{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            p{
+              height: 8px;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                height: 8px;
+                margin-left: 500px;
+                li{
+                   
+                }
+            }
+            .redes-footer{
+                margin-left: 400px;
+                width: 24%;
+                height: 30px;
+                display: flex;
+                justify-content: space-between;
+                .rss{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #faaa5e;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#faaa5e;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#faaa5e;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .twitter{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #70c2e9;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#70c2e9;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#70c2e9;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .facebook{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #677fb5;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#677fb5;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#677fb5;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .dribble{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #e299c2;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#e299c2;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#e299c2;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .pinteres{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #d8545d;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#d8545d;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#d8545d;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .instagram{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #926d53;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#926d53;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#926d53;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+                .vimeo{
+                    width: 30px;
+                    height: 30px;
+                    border:solid 2px #42b5d4;
+                    display: flex;
+                    i{
+                        margin: auto auto;
+                        color:#42b5d4;
+                        &:hover{
+                            color:white;
+                        }
+                    }
+                    &:hover{
+                        background-color:#42b5d4;
+                        cursor: pointer;
+                        i{
+                            color:white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
